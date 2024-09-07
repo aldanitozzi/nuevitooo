@@ -9,7 +9,7 @@
 <body>
     <div class="sky">
         <!-- Mensaje inicial -->
-        <div class="initial-message">TOCA UNA ESTRELLA Y SABRÁS LO MUCHO QUE TE QUIERO</div>
+        <div class="initial-message">TOCA UNA ESTRELLA Y SABRÁS LO MUCHO QUE TE QUIERO ♡ </div>
         
         <!-- Estrellas -->
         <div class="star" id="star1"></div>
@@ -26,7 +26,6 @@
         <!-- Modal para mostrar los mensajes -->
         <div id="modal" class="modal">
             <div class="modal-content">
-                <span class="close-btn">&times;</span>
                 <div id="message"></div>
             </div>
         </div>
@@ -35,7 +34,20 @@
     <!-- Reproducción automática de música de fondo -->
     <audio id="background-music" src="imagenes/prueba1.mp3" autoplay loop></audio>
 
+    <!-- Controles de música -->
+    <div class="music-controls">
+        <button id="play-btn">DALE CLICK
+            PARA ESCUCHAR 
+            TU MUSICA
+            FAVORITA ♡ </button>
+        <button id="pause-btn">PAUSE</button>
+        <div class="music-player">
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
-
