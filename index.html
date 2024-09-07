@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sky">
+        <!-- Mensaje inicial -->
+        <div class="initial-message">TOCA UNA ESTRELLA Y SABRÁS LO MUCHO QUE TE QUIERO</div>
+        
+        <!-- Estrellas -->
+        <div class="star" id="star1"></div>
+        <div class="star" id="star2"></div>
+        <div class="star" id="star3"></div>
+        <div class="star" id="star4"></div>
+        <div class="star" id="star5"></div>
+        <div class="star" id="star6"></div>
+        <div class="star" id="star7"></div>
+        <div class="star" id="star8"></div>
+        <div class="star" id="star9"></div>
+        <div class="star" id="star10"></div>
+        
+        <!-- Modal para mostrar los mensajes -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reproducción automática de música de fondo -->
+    <audio id="background-music" src="imagenes/prueba1.mp3" autoplay loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
